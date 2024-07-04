@@ -1,22 +1,24 @@
 name: linkedin_auth
 description: Flutter auth for LinkedIn using V2 APIs and OAuth 2.0, pure dart implementation.
-version: 1.0.0
+version: 1.0.0+1
 authors:
   - Ishaan Bahal <ishaanbahal@gmail.com>
 
 homepage: https://github.com/ishaanbahal/LinkedIn-Auth-Flutter
 
 environment:
-  sdk: ">=2.15.1 <3.0.0"
+  sdk: ">=3.4.3 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  webview_flutter: ^3.0.0
-  uuid: ^3.0.5
-  http: ^0.13.4
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.8.0
+  uuid: ^4.4.0
+  http: ^1.2.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
